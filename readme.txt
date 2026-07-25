@@ -23,6 +23,8 @@ Two shortcodes:
 
 == Installation ==
 
+If you're grabbing this via GitHub's own "Download ZIP" button, rename the extracted folder to `tabletop-events-reviews` first — GitHub names it `tabletop-events-reviews-main`, which WordPress will happily install but won't recognise as the same plugin on your next update. Running `scripts/pack-plugin.sh` (needs `php` and `zip`) builds a zip with the folder already named correctly, ready for Plugins ▸ Add New ▸ Upload Plugin.
+
 1. Install and activate **Tabletop Events Calendar** first.
 2. Upload the `tabletop-events-reviews` folder to `/wp-content/plugins/` and activate it.
 3. Add `[tabletop_event_reviews event="123"]` to an event's page, or `[tabletop_organiser_reviews organiser="123"]` wherever you want an organiser's reputation shown.
