@@ -15,6 +15,19 @@ Requires [Tabletop Events Calendar](https://github.com/TABARC-Code/tabletop-gami
 
 Because the core plugin already has one: a confirmed RSVP is proof someone had a genuine spot at that event. Reusing it means no new login, no email-verification flow, no second place for someone's email address to live — the exact same "anchor on data that already exists" approach as the Venues, LFG, and Discord RSVP plugins in this family.
 
+## Installing
+
+Install and activate the core calendar first. Then either upload a zip via Plugins ▸ Add New, or drop the `tabletop-events-reviews` folder into `wp-content/plugins/`. GitHub's "Download ZIP" names the folder `...-main`, which WordPress won't treat as the same plugin on update — run `scripts/pack-plugin.sh` to build a correctly named zip instead.
+
+## Other pieces of the set
+
+Every plugin here stands alone and only ever needs the [core calendar](https://github.com/TABARC-Code/Tabletop-Gaming-Events-Calendar) — none depend on each other. Take what's useful:
+
+- [Tabletop-Events-Discord-rsvp-Repo](https://github.com/TABARC-Code/Tabletop-Events-Discord-rsvp-Repo) — RSVP from a Discord button
+- [Tabletop-Events-Carpool](https://github.com/TABARC-Code/Tabletop-Events-Carpool) — Lift-share board per event
+- [tabletop-events-resources](https://github.com/TABARC-Code/tabletop-events-resources) — Terrain, tables and dice to borrow
+- [tabletop-events-tournaments](https://github.com/TABARC-Code/tabletop-events-tournaments) — Swiss pairings and standings
+
 ## Licence
 
 GPL v2 or later.
